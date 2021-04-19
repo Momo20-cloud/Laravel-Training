@@ -6,8 +6,7 @@
 
         <title>Hello city</title>
         <body>
-            <h1>Hello from Abidjan !</h1>
-            <p>It's currently {{ date('H:i')}}</p>
+           @yield('content')
 
             <footer>
               <p>&copy; Copyright {{date('Y')}} &middot; <a href="/about-us">About Us</a> </p>  
