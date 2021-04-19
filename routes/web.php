@@ -19,3 +19,4 @@ Route::get('/', function () {
 Route::get('/about-us', function (){
     return view('pages.about');
 });
+// Comment
