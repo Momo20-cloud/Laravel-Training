@@ -4,8 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello city</title>
+        <title>@yield('title','Hello City')</title>
         <body>
+          
            @yield('content')
 
             <footer>
