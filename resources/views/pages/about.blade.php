@@ -4,6 +4,7 @@
         
         
 @section('content')
+<img src="img/igs2_flag.png" alt="Ivory Flag">
 
 <p>Built with &hearts; by Student's of IGS SCHOOL</p>
             

@@ -8,6 +8,7 @@
         <body>
           
            @yield('content')
+           
 
             <footer>
 
@@ -20,4 +21,3 @@
             </footer>
         </body>
 </html>
-
