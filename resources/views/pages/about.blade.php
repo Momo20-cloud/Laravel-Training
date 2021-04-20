@@ -1,7 +1,4 @@
- @extends('app')
-        
-@section('title', 'About Us | ' .config('app.name'))
-        
+ @extends('layouts.app', ['Title'=> 'About Us'])        
         
 @section('content')
 <img src="{{ asset('img/igs2_flag.png')}}" alt="IGS SCHOOL Flag" class="my-12 rounded-full shadow-nd">
