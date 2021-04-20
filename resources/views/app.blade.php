@@ -8,7 +8,7 @@
 
         <title>@yield('title', config('app.name'))</title>
         <body class="py-6 flex flex-col justify-between items-center min-h-screen">
-          <main role="main">
+          <main role="main" class="flex flex-col justify-center items-center">
            @yield('content')
           </main>
 
